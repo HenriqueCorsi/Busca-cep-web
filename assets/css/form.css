@@ -2,7 +2,7 @@ form{
     width: 30%;
     margin: auto;
     margin-top: 5rem;
-    padding: 1rem;
+    padding: 3rem;
     border-radius: 1rem;
     background-color: #dedede;
 }
@@ -10,6 +10,7 @@ form{
 @media screen and (max-width: 799px) {
     form{
         width: 85%;
+        padding: 1rem;
     }
 }
 
