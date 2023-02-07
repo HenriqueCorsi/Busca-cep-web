@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="./assets/css/input-user.css">
     <!--CSS Botão-->
     <link rel="stylesheet" href="./assets/css/button-container.css">
+    <!--CSS Informações fornecidas pela API-->
+    <link rel="stylesheet" href="./assets/css/info-box.css">
     <!--Css footer-->
     <link rel="stylesheet" href="./assets/css/footer.css">
     
@@ -32,10 +34,13 @@
             <form>
                 <div class="input-user">
                     <label for="cep">Digite o CEP</label>
-                    <input type="number" name="cep" id="cep">
+                    <input type="number" placeholder="ex:00000000" name="cep" id="cep">
                 </div>
                 <div class="button-container">
-                    <button>Verificar</button>
+                    <button type="button" onclick="buscaCep()">Verificar</button>
+                </div>
+                <div id="info-box">
+                    
                 </div>
             </form>
         </section>
@@ -43,5 +48,7 @@
     <footer>
         <a href="" target="_blank">© Henrique Corsi</a>
     </footer>
+
+    <script src="./assets/js/main.js"></script>
 </body>
 </html>
