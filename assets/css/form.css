@@ -1,0 +1,21 @@
+form{
+    width: 30%;
+    margin: auto;
+    margin-top: 5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #dedede;
+}
+
+@media screen and (max-width: 799px) {
+    form{
+        width: 85%;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1200px) {
+    form{
+        width: 70%;
+    }   
+}
+

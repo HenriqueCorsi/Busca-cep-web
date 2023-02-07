@@ -1,0 +1,13 @@
+@font-face {
+    font-family: balbek;
+    src: url('../font/Balbek-Personal\ Use\ Only.otf');
+}
+
+header{
+    padding: 3rem;
+    text-align: center;
+    font-family: balbek;
+    font-size: 50px;
+    background-color: #11408C;
+    color: #fff;
+}
