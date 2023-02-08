@@ -23,7 +23,7 @@ function exibiInfo(dadosCep){
     info.innerHTML = `<p>Endereço: ${dadosCep.logradouro}</p><br>
                       <p>Bairro: ${dadosCep.bairro}</p><br>
                       <p>Cidade: ${dadosCep.localidade}</p><br>
-                      <p>Cidade: ${dadosCep.cep}</p><br>
+                      <p>CEP: ${dadosCep.cep}</p><br>
     `;
 
 }
