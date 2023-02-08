@@ -20,7 +20,6 @@ function exibiInfo(dadosCep){
     info.style.border = "thick solid #11408C";
     info.style.background = "#11408C";
     info.style.color = "#fff";
-    info.style.fontSize = "25px";
     info.innerHTML = `<p>Endereço: ${dadosCep.logradouro}</p><br>
                       <p>Bairro: ${dadosCep.bairro}</p><br>
                       <p>Cidade: ${dadosCep.localidade}</p><br>
