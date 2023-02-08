@@ -2,6 +2,8 @@
  Busque informação de qualquer CEP nacional.
  
  ![Captura de tela 2023-02-07 193336](https://user-images.githubusercontent.com/106001465/217382176-5a4ea191-89b5-42d8-badc-a6b50d43edaf.png)
+ 
+ <a href="https://henriquecorsi.github.io/Busca-cep-web/" target="_blank">Link do Site</a>
 
 
 # 🔨 Techs
