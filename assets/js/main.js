@@ -17,11 +17,14 @@ function buscaCep(){
 function exibiInfo(dadosCep){
     let info = document.getElementById('info-box');
 
-    info.style.border = "thick solid #000000";
-    info.innerHTML = `<p>Endereço: ${dadosCep.cep}</p><br>
-                      <p>Endereço: ${dadosCep.logradouro}</p><br>
+    info.style.border = "thick solid #11408C";
+    info.style.background = "#11408C";
+    info.style.color = "#fff";
+    info.style.fontSize = "25px";
+    info.innerHTML = `<p>Endereço: ${dadosCep.logradouro}</p><br>
                       <p>Bairro: ${dadosCep.bairro}</p><br>
                       <p>Cidade: ${dadosCep.localidade}</p><br>
+                      <p>Cidade: ${dadosCep.cep}</p><br>
     `;
 
 }
